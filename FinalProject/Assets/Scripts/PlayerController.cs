@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
             transform.position.x + GetComponent<Rigidbody>().velocity.x,
             transform.position.y,
             transform.position.z + GetComponent<Rigidbody>().velocity.z
+            //adding velocity
             );
         transform.LookAt(lookPos);
 
